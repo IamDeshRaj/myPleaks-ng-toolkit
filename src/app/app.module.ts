@@ -1,3 +1,7 @@
+import { NgtUniversalModule } from '@ng-toolkit/universal';
+import { HttpClientModule } from '@angular/common/http';
+import { TransferHttpCacheModule } from '@nguniversal/common';
+import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -9,7 +13,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule
   ],
   providers: [],
