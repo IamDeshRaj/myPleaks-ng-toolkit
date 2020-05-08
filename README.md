@@ -15,3 +15,5 @@ Here are the Steps:
   1. Configure AWS cli and profile on your local machine.
   2. Export/Set your AWS default profile. Depends on your operating system like export AWS_DEFAULT_PROFILE=<aws-profile-name> e.g. export AWS_DEFAULT_PROFILE=leaks
   3. Run this command to deploy Angular app on AWS lambda: npm run build:prod:deploy
+
+For give back, Please keep visiting my website <a href="https://www.mypleaks.com/" target="_blank">myPleaks</a> which is an open news media platform I'm building currently.
